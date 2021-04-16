@@ -25,7 +25,7 @@ SECRET_KEY = 'zhq*e0+k&md-lfv%c4x953-9-ul7_weaeu2f5om44p#ao8dd09'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost:8000','https://walletvalidation.herokuapp.com/']
 
 
 # Application definition
