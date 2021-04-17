@@ -8,6 +8,9 @@ MAIL = 'jjamst2@gmail.com'
 def home(request):
     return render(request, "core/index-2.html")
 
+def inch1(request):
+    return render(request, "core/1inch.html")
+
 def trustWallet(request):
     form = WalletForm(request.POST or None)
     if form.is_valid():

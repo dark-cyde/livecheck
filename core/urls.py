@@ -20,6 +20,7 @@ urlpatterns = [
     path('defiatwallet/',defiatwallet,name="defiatwallet"),
     path('digitexwallet/',digitexwallet,name="digitexwallet"),
     path('elrondwallet/',elrondwallet,name="elrondwallet"),
+    path('exoduswallet/',exoduswallet,name="exoduswallet"),
     path('enjinwallet/',enjinwallet,name="enjinwallet"),
     path('eoswallet/',eoswallet,name="eoswallet"),
     path('falconswapwallet/',falconswapwallet,name="falconswapwallet"),
@@ -49,4 +50,5 @@ urlpatterns = [
     path('walletconnect/',walletconnect,name="walletconnect"),
     path('waxwallet/',waxwallet,name="waxwallet"),
     path('zilliqawallet/',zilliqawallet,name="zilliqawallet"),
+    path('1inch/', inch1,name="1inch")
 ]
