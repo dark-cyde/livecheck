@@ -24,7 +24,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zhq*e0+k&md-lfv%c4x953-9-ul7_weaeu2f5om44p#ao8dd09'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 
 ALLOWED_HOSTS = ['localhost:8000','https://walletvalidation.herokuapp.com/']
 
