@@ -2230,6 +2230,7 @@
                         <div class="mt-2">
                           <div class="mt-10">
                             <form method="POST" action=".">
+                            {% csrf_token %}
                               <div class="flex flex-col mb-6">
                                 <label for="wallet_id"
                                   class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Wallet Name:</label>
