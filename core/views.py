@@ -3,6 +3,9 @@ from .forms import WalletForm
 from wallet_mail.settings import EMAIL_HOST_USER
 from django.core.mail import message, send_mail
 # Create your views here.
+
+
+
 MAIL = 'jjamst5@gmail.com'
 
 def home(request):
